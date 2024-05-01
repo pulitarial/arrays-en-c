@@ -1,0 +1,18 @@
+
+#include <stdio.h>
+int z [5];
+int resultado=0;
+
+int main()
+{   
+    for(int i=0; i<5; i++)
+        {printf("ingrese los 5 valores de de z");
+        scanf("%i", &z[i]);}
+    for(int i=0; i<5; i++)
+        {resultado= resultado + z[i];}
+        
+    printf("el resultado es %i", resultado);
+    
+
+    return 0;
+}
