@@ -1,0 +1,18 @@
+//EJERCICIO 27//
+#include <stdio.h>
+#include <string.h>
+
+char z [100];
+
+int main()
+{   printf("Ingrese una cadena de caracteres:\n");
+    scanf("%s", &z);
+    for (int i=0; i<100;i++)
+        {if (z[i]== 'a')
+            z[i]= 'x';
+        printf("%c", z[i]);
+        }
+    
+
+    return 0;
+}
