@@ -1,0 +1,21 @@
+//ejercicio 28//
+#include <stdio.h>
+
+int suma=0;
+int n=0;
+
+int main ()
+{
+    printf("Ingrese la cantidad de numeros que vamos a sumar\n ");
+    scanf("%i", &n);
+    int numeros[n];
+    for (int i=0; i<n; i++ )
+        {printf("Ahora ingrese los numeros\n");
+        scanf("%i", &numeros[i]);}
+    for (int i=0; i<n; i++)
+       { suma= suma + numeros [i];}
+        
+    printf("El total de los %i numeros ingresados es %i", n, suma);
+
+    return 0;
+}
